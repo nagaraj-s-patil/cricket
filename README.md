@@ -22,12 +22,16 @@ The game stores scores using **LocalStorage** and updates results instantly.
 ## 📂 Project Structure
 
 ```
-/project-folder
- ├── index.html      # Main game file
- ├── /photo          # Images for Bat, Ball, Stump
-       ├── Bat.png
-       ├── ball.png
-       └── stamp.png
+cricket/
+│
+├── index.html       # Main UI layout
+├── style.css        # Black theme + glow button styles
+├── script.js        # Game logic + score handling
+│
+└── photo/           # Game images
+      ├── Bat.png
+      ├── ball.png
+      └── stamp.png
 ```
 
 ---
